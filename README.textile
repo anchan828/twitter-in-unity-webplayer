@@ -1,0 +1,29 @@
+h1. 使い方
+
+適当に「WebPlayerTweetScript」を「MainCamera」などに付加する
+
+<pre>
+
+GetComponent<WebPlayerTweetScript> ();
+
+</pre>
+
+で取得
+
+h2. シェアツイート
+
+|_. 変数 |_. 説明|
+|text|ツイートの内容|
+|url|URL短縮後の文字数でカウントしてくれる|
+|via|（@~さんから)と表示される|
+|hashtag|ハッシュタグ|
+
+h2. ツイート
+
+|_. 変数 |_. 説明|
+|consumerKey|Twitterアプリのコンシューマーキー|
+
+h3. 動作確認
+
+
+UnityGames : "「Twitter in UnityWebPlayer その２」":http://www.unitygames.jp/game/ug2417151
